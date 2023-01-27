@@ -1,9 +1,22 @@
 package atividade1q1;
 import java.util.Scanner;
-/**
- *
- * @author LUCAS MEIRELLES
- */
+/*Com relação ao atendimento a eventos, o hotel necessita de uma 
+funcionalidade que indique qual de seus dois auditórios é o mais 
+adequado para um evento. O auditório Alfa conta com 150 lugares e 
+espaço para até 70 cadeiras adicionais. O auditório Beta conta com 350 
+lugares, sem espaço para mais cadeiras. Desenvolva um programa Java
+que receba o número de convidados do evento e faça uma verificação 
+sobre a quantidade: se for maior que 350 ou se for menor que zero, mostre 
+a mensagem “Número de convidados inválido”. Se o valor informado for
+válido, mostre na tela qual dos auditórios é o mais adequado. No caso do 
+auditório Alfa, calcule ainda quantas cadeiras adicionais serão 
+necessárias, observando o limite citado.
+Exemplo:
+[Entrada de dados]
+190 convidados (número de convidados)
+[Saída de dados]
+Use o auditório Alfa
+Inclua mais 40 cadeiras*/
 public class Atividade1Q1 {
 
     /**

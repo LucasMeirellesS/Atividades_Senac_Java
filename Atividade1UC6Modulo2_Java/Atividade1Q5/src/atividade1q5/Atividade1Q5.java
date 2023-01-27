@@ -57,12 +57,7 @@ public class Atividade1Q5 {
             }
         }
         
-        // System.out.println("Deseja informar uma ocupação? (S/N)");
-        // opcao = t.next().charAt(0);
-        // while(opcao != 'S' || opcao != 'N'){
-        //     System.out.println("Digite uma opção válida!");
-        //     opcao = t.next().charAt(0);
-        // }
+        
 
         do{
             System.out.println("Digite numero do andar do quarto em questão:");
