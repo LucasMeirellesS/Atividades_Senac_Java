@@ -51,3 +51,97 @@ O sistema calcula o valor do imposto e mostra na tela sua descrição (“ICMS�
 O sistema permite que o usuário cadastre em uma lista até dez impostos de qualquer um dos quatro tipos expostos no contexto e, independentemente do tipo, mostra o cálculo para cada um dos impostos cadastrados e também mostrar a descrição deles.
 
 Atividade 5: Foi criado um sistema de uma pizzaria, onde pode ser cadastrados sabores de pizza e bebidas em um cardápio, criar pedido e mostra-lo na tela, cadastrar o pedido para cozinha e extrair próximo pedido a ser preparado e levado ao cliente.
+
+
+Unidade Curricular 7:
+
+Atividade 3:
+
+Contexto
+
+A empresa na qual você atua recebeu uma demanda para criação de um sistema para uma academia de musculação/crossfit que apresente indicações de exercícios que podem ser divididos em várias categorias.
+
+Utilize como base as categorias de corrida e musculação que possam ser divididas em exercícios de resistência ou velocidade.
+
+Sabendo que os diferentes exercícios são representados por objetos, avalie qual das opções de padrão de projeto pode ser aplicada para esse código. Considere como opções: observer, abstract factory e state.
+
+Atividade
+
+Escolha entre os três padrões de projetos apresentados o que melhor se aplica neste projeto e justifique sua escolha.
+
+Implemente um código no NetBeans (Java Ant) com a solução do desafio proposto.
+
+
+Atividade 4:
+
+Contexto
+
+Uma empresa de software está em uma concorrência para oferecer seu sistema a uma grande rede de atuação nacional para supermercados. Para isso, não basta simplesmente que o sistema esteja testado e funcionando, ele precisa atender aos princípios do SOLID (princípio da responsabilidade única; princípio do aberto/fechado; princípio da substituição de Liskov; princípio da segregação de interface; princípio da inversão de dependência), seguir propostas de lean code (código enxuto) e evitar code smells (cheiros de código). Você deverá analisar e refatorar o código desenvolvido por outros membros da sua equipe, com base nos princípios requisitados.
+
+Atividade
+Baseado no princípio de responsabilidade única (S) do SOLID, refatore em sua máquina a classe ProdutoController do Projeto Supermercado, disponível em Conteúdo > Material complementar.
+
+Mesmo que o código esteja compilando, identifique e corrija
+
+os métodos que estão “fedorentos”.
+os princípios do “S” do SOLID que foram violados.
+Proponha melhorias no código do projeto no NetBeans.
+
+
+Unidade Curricular 9:
+Atividade 1:
+
+Contexto
+
+A empresa de desenvolvimento onde você trabalha está montando um MVP (produto viável mínimo, em inglês minimum viable product) para uma loja. Em um projeto que servirá de protótipo e prova de conceito, você ficou encarregado de montar telas simples em Java.
+
+Usando apenas código, faça o seguinte:
+Crie uma janela e inclua nela um campo de entrada de texto e um botão. O usuário informará o valor de uma venda nesse campo.
+Crie uma janela de diálogo que deve aparecer se, ao clicar no botão, o valor for maior que 500. Essa janela de diálogo deve aparecer com um campo para o usuário informar um percentual de desconto. O usuário informará apenas números.
+Por fim, faça com que o valor total seja calculado (com desconto, caso tenha havido algum) e mostrado por meio de outra caixa de diálogo.
+Atividade
+
+Crie um projeto no NetBeans e implemente a aplicação sem ferramentas visuais, conforme as especificações presentes no contexto. Realize testes e, sempre que possível, inclua verificações para validar o valor informado pelo usuário.
+
+Atividade 2:
+
+Contexto
+O Sindicato dos Nutricionistas pretende fazer uma ação diferente com seus associados. Ele distribuirá aos nutricionistas softwares desktop para realizar rapidamente cálculos muito comuns na rotina desses profissionais.
+
+O software precisa realizar:
+
+Cálculo de IMC (índice de massa corporal)
+Calculo de gasto calórico basal, que é quanto uma pessoa gasta de caloria para simplesmente sobreviver
+Cálculo de gasto calórico total, que considera a quantidade de atividades físicas que a pessoa realiza
+Recomendação de quantidade de carboidrato, proteína e gordura que a pessoa deve ingerir
+
+Atividade
+
+Crie um projeto Java no NetBeans e implemente as seguintes funcionalidade e telas usando a ferramenta visual do IDE (ambiente de desenvolvimento integrado, em inglês integrated development environment).
+
+Atividade 3:
+
+Contexto
+Com o sucesso do projeto anterior, agora o Sindicato de Nutricionistas se interessa em um projeto de software para os consultórios dos nutricionistas associados. O software, a princípio, será desktop. Neste momento, serão feitas provas de conceito sem o uso de banco de dados. Com a aprovação do cliente, esse recurso poderá ser adicionado no futuro.
+O software deve permitir a inclusão e exclusão de registros de consulta. Para cada consulta, informam-se o nome do paciente, o CPF, o telefone, a idade e a data da consulta. Por fim, há uma marcação indicando se essa pessoa já é paciente ou não.
+Ao registrar a consulta, esta aparecerá para o usuário listada em uma tabela na tela. Para excluir uma consulta, o usuário deve selecionar a linha na tabela e clicar no botão Excluir. Para o usuário atualizar uma consulta, ele deve selecionar uma linha na tabela e marcar que a consulta já foi realizada. Além disso, pode informar, em texto, o que foi receitado ao paciente.
+Todas as operações acontecerão sob listas em memória.
+
+Atividade 4:
+
+Contexto
+
+Os trabalhos com o Sindicato de Nutricionistas ganharam expressão e, com isso, alguns colegas cardiologistas mostraram-se interessados em também disponibilizar software a seus pacientes.
+A ideia deles é disponibilizar um programa em que os pacientes que têm aparelho de aferimento de pressão possam registrar os dados de cada medição realizada. O software gravará esses dados em um arquivo que, no dia da consulta, poderá ser levado pelo paciente ao médico, para que este possa observar o histórico das medições.
+O software precisa ter apenas uma tela, na qual o usuário informa: data, hora, pressão sistólica e pressão diastólica (estes dois últimos campos numéricos inteiros). O usuário também deve ser capaz de indicar se está em uma situação de estresse no momento da medição.
+Como o software é voltado especialmente para pessoas idosas, é importante que use caracteres maiores e que implemente os seguintes aspectos de usabilidade e acessibilidade:
+Descrições acessíveis e tooltips nos componentes presentes na tela
+Associação de rótulos (JLabel) aos componentes correspondentes
+Ordem sequencial de foco nos componentes de tela
+Atalhos por teclado
+ 
+Atividade
+
+Para esta proposta, crie um projeto Java no NetBeans com uma tela contendo labels, caixas de texto para os dados requisitados e checkbox para o usuário marcar se está em situação de estresse. Também é necessário existir um botão Salvar, para que haja a gravação desses dados em arquivo (texto ou CSV).
+Esses dados devem ser mostrados na própria tela em uma tabela (JTable) ou um campo de texto livre (JTextArea). Esse componente deverá ser preenchido ao abrir o programa e atualizado quando o usuário salvar nova medição.
+O programa deverá emitir mensagens amigáveis em casos de falhas, por exemplo, quando um valor inadequado é informado.
