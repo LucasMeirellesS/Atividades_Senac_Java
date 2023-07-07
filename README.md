@@ -3,7 +3,7 @@
 Atividades do curso técnico de desenvolvimento de sistemas do Senac. Módulo 2(Programação Orientada a Objetos em Java).
 Os projetos enviados foram realizados na IDE Netbeans.
 
-Unidade Curricular 6:
+# Unidade Curricular 6:
 
 Atividade 1: Uma série de desafios básicos feitos em Java. A descrição de cada desafio encontra-se comentada no arquivo da classe principal de cada projeto.
 
@@ -53,7 +53,10 @@ O sistema permite que o usuário cadastre em uma lista até dez impostos de qual
 Atividade 5: Foi criado um sistema de uma pizzaria, onde pode ser cadastrados sabores de pizza e bebidas em um cardápio, criar pedido e mostra-lo na tela, cadastrar o pedido para cozinha e extrair próximo pedido a ser preparado e levado ao cliente.
 
 
-Unidade Curricular 7:
+
+
+
+# Unidade Curricular 7:
 
 Atividade 3:
 
@@ -88,7 +91,7 @@ os princípios do “S” do SOLID que foram violados.
 Proponha melhorias no código do projeto no NetBeans.
 
 
-Unidade Curricular 9:
+# Unidade Curricular 9:
 Atividade 1:
 
 Contexto
